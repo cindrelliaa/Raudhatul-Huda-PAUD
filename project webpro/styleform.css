@@ -1,0 +1,92 @@
+body {
+  background: linear-gradient(to bottom, #96d4f8, #fffdfd)
+  
+}
+
+main {
+  padding: 30px;
+  background: linear-gradient(to bottom, #96d4f8, #fffdfd);
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.form-title{
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+}
+.form-section {
+  background: #dbe2f3;
+  text-align: center;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.form-section h1 {
+  font-size: 2.5rem;
+  color: #020202;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.form-section p {
+  font-size: 1.2rem;
+  color: #0c0c0c;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Form */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: #dbe2f3;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 2px solid #4269ea;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Title for form sections */
+.form-section-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #0e0d0d;
+  margin-top: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 1rem;
+  margin-left: 260px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Form Labels */
+form label {
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #0e0d0d;
+  
+}
+
+/* Form Inputs, Selects, and Textareas */
+form input,
+form select,
+form textarea {
+  padding: 12px;
+  font-size: 1.1rem;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+  border-color: #ff9a8b;
+  box-shadow: 0 0 5px rgba(255, 154, 139, 0.8);
+}
